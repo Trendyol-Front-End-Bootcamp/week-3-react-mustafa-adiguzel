@@ -4,10 +4,10 @@ import CharacterList from "../../components/Character/CharacterList.js";
 
 const Characters = () => {
   return (
-      <main>
+      <div>
           <Search />
           <CharacterList/>
-      </main>
+      </div>
   )
 }
 

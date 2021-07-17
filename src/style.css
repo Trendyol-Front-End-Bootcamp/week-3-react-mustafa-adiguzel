@@ -85,7 +85,7 @@ select {
 }
 .character-card {
     width: 400px;
-    height: 480px;
+    height: 550px;
     position: relative;
 
     display: flex;
@@ -98,8 +98,21 @@ select {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    
     margin-bottom: 30px;
+}
+.character-name {
     text-align: center;
 }
+.character-details{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.character-details span {
+    font-weight: bold;
+}
+.character-img-container{
+    text-align: center;
+}
+
 .character-img-container img{
     background: #77b6ea;
     border-radius: 10px;

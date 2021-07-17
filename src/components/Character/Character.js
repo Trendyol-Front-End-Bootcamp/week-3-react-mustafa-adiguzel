@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 
 export default function Character({ character }) {
   return (
@@ -8,13 +9,17 @@ export default function Character({ character }) {
       </div>
 
       <h1 className="character-name">{character.name}</h1>
-      <div className="character-gender">Gender: {character.gender}</div>
-      <div className="character-type">Type: {character.status}</div>
-      <div className="character-status">Status: {character.status}</div>
-      <div className="character-location">Location: {character.location.name}</div>
-
+      <div className="character-details">
+        <div className="character-gender"><span>Gender</span> {character.gender}</div>
+        <div className="character-type"><span>Type</span> {character.status}</div>
+        <div className="character-status"><span>Status</span> {character.status}</div>
+        <div className="character-location"><span>Location</span> {character.location.name}</div>
+      </div>
       <div class="character-link">
-          <a href="/asdasdf">Details</a>
+          <Link
+            to={`/character/${character.id}`}>
+              Details
+          </Link>
       </div>
     </div>
   );

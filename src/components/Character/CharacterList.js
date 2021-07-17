@@ -16,7 +16,7 @@ export default function CharacterList(props) {
         });
 
     }, []);
-  
+    
     return (
       <section className="character-list">
         {CharacterArr.map((character, id) => {
