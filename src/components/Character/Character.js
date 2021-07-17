@@ -11,7 +11,7 @@ export default function Character({ character }) {
       <h1 className="character-name">{character.name}</h1>
       <div className="character-details">
         <div className="character-gender"><span>Gender</span> {character.gender}</div>
-        <div className="character-type"><span>Type</span> {character.status}</div>
+        <div className="character-type"><span>Type</span> {character.type}</div>
         <div className="character-status"><span>Status</span> {character.status}</div>
         <div className="character-location"><span>Location</span> {character.location.name}</div>
       </div>

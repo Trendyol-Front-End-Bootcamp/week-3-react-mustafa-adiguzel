@@ -142,3 +142,20 @@ select {
     background: #77b6ea;
     transition: all .25s ease-in-out;
 }
+
+.character-detail-card {
+    width: 600px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 auto;
+
+    border-radius: 20px;
+    background-color: #EDF2EF;
+    color: #37393a;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+    padding: 20px;
+}
